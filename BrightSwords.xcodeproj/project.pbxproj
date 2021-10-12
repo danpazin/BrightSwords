@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42CF9C72716013900AF7131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9C62716013900AF7131 /* AppDelegate.swift */; };
+		F42CF9C92716013900AF7131 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9C82716013900AF7131 /* ContentView.swift */; };
+		F42CF9CB2716013900AF7131 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9CA2716013900AF7131 /* Experience.rcproject */; };
+		F42CF9CD2716013B00AF7131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42CF9CC2716013B00AF7131 /* Assets.xcassets */; };
+		F42CF9D02716013B00AF7131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42CF9CF2716013B00AF7131 /* Preview Assets.xcassets */; };
+		F42CF9DA2716013B00AF7131 /* BrightSwordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9D92716013B00AF7131 /* BrightSwordsTests.swift */; };
+		F42CF9E42716013B00AF7131 /* BrightSwordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9E32716013B00AF7131 /* BrightSwordsUITests.swift */; };
+		F42CF9E62716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9E52716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F42CF9D62716013B00AF7131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42CF9BB2716013900AF7131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42CF9C22716013900AF7131;
+			remoteInfo = BrightSwords;
+		};
+		F42CF9E02716013B00AF7131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42CF9BB2716013900AF7131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42CF9C22716013900AF7131;
+			remoteInfo = BrightSwords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42CF9C32716013900AF7131 /* BrightSwords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightSwords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42CF9C62716013900AF7131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42CF9C82716013900AF7131 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F42CF9CA2716013900AF7131 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		F42CF9CC2716013B00AF7131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42CF9CF2716013B00AF7131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F42CF9D52716013B00AF7131 /* BrightSwordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightSwordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42CF9D92716013B00AF7131 /* BrightSwordsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightSwordsTests.swift; sourceTree = "<group>"; };
+		F42CF9DF2716013B00AF7131 /* BrightSwordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightSwordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42CF9E32716013B00AF7131 /* BrightSwordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightSwordsUITests.swift; sourceTree = "<group>"; };
+		F42CF9E52716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightSwordsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42CF9C02716013900AF7131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CF9D22716013B00AF7131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CF9DC2716013B00AF7131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42CF9BA2716013900AF7131 = {
+			isa = PBXGroup;
+			children = (
+				F42CF9C52716013900AF7131 /* BrightSwords */,
+				F42CF9D82716013B00AF7131 /* BrightSwordsTests */,
+				F42CF9E22716013B00AF7131 /* BrightSwordsUITests */,
+				F42CF9C42716013900AF7131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42CF9C42716013900AF7131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42CF9C32716013900AF7131 /* BrightSwords.app */,
+				F42CF9D52716013B00AF7131 /* BrightSwordsTests.xctest */,
+				F42CF9DF2716013B00AF7131 /* BrightSwordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42CF9C52716013900AF7131 /* BrightSwords */ = {
+			isa = PBXGroup;
+			children = (
+				F42CF9C62716013900AF7131 /* AppDelegate.swift */,
+				F42CF9C82716013900AF7131 /* ContentView.swift */,
+				F42CF9CA2716013900AF7131 /* Experience.rcproject */,
+				F42CF9CC2716013B00AF7131 /* Assets.xcassets */,
+				F42CF9CE2716013B00AF7131 /* Preview Content */,
+			);
+			path = BrightSwords;
+			sourceTree = "<group>";
+		};
+		F42CF9CE2716013B00AF7131 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F42CF9CF2716013B00AF7131 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F42CF9D82716013B00AF7131 /* BrightSwordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F42CF9D92716013B00AF7131 /* BrightSwordsTests.swift */,
+			);
+			path = BrightSwordsTests;
+			sourceTree = "<group>";
+		};
+		F42CF9E22716013B00AF7131 /* BrightSwordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42CF9E32716013B00AF7131 /* BrightSwordsUITests.swift */,
+				F42CF9E52716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift */,
+			);
+			path = BrightSwordsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42CF9C22716013900AF7131 /* BrightSwords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42CF9E92716013B00AF7131 /* Build configuration list for PBXNativeTarget "BrightSwords" */;
+			buildPhases = (
+				F42CF9BF2716013900AF7131 /* Sources */,
+				F42CF9C02716013900AF7131 /* Frameworks */,
+				F42CF9C12716013900AF7131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrightSwords;
+			productName = BrightSwords;
+			productReference = F42CF9C32716013900AF7131 /* BrightSwords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42CF9D42716013B00AF7131 /* BrightSwordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42CF9EC2716013B00AF7131 /* Build configuration list for PBXNativeTarget "BrightSwordsTests" */;
+			buildPhases = (
+				F42CF9D12716013B00AF7131 /* Sources */,
+				F42CF9D22716013B00AF7131 /* Frameworks */,
+				F42CF9D32716013B00AF7131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42CF9D72716013B00AF7131 /* PBXTargetDependency */,
+			);
+			name = BrightSwordsTests;
+			productName = BrightSwordsTests;
+			productReference = F42CF9D52716013B00AF7131 /* BrightSwordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42CF9DE2716013B00AF7131 /* BrightSwordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42CF9EF2716013B00AF7131 /* Build configuration list for PBXNativeTarget "BrightSwordsUITests" */;
+			buildPhases = (
+				F42CF9DB2716013B00AF7131 /* Sources */,
+				F42CF9DC2716013B00AF7131 /* Frameworks */,
+				F42CF9DD2716013B00AF7131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42CF9E12716013B00AF7131 /* PBXTargetDependency */,
+			);
+			name = BrightSwordsUITests;
+			productName = BrightSwordsUITests;
+			productReference = F42CF9DF2716013B00AF7131 /* BrightSwordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42CF9BB2716013900AF7131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F42CF9C22716013900AF7131 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F42CF9D42716013B00AF7131 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F42CF9C22716013900AF7131;
+					};
+					F42CF9DE2716013B00AF7131 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F42CF9C22716013900AF7131;
+					};
+				};
+			};
+			buildConfigurationList = F42CF9BE2716013900AF7131 /* Build configuration list for PBXProject "BrightSwords" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42CF9BA2716013900AF7131;
+			productRefGroup = F42CF9C42716013900AF7131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42CF9C22716013900AF7131 /* BrightSwords */,
+				F42CF9D42716013B00AF7131 /* BrightSwordsTests */,
+				F42CF9DE2716013B00AF7131 /* BrightSwordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42CF9C12716013900AF7131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42CF9D02716013B00AF7131 /* Preview Assets.xcassets in Resources */,
+				F42CF9CD2716013B00AF7131 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CF9D32716013B00AF7131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CF9DD2716013B00AF7131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42CF9BF2716013900AF7131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42CF9C92716013900AF7131 /* ContentView.swift in Sources */,
+				F42CF9C72716013900AF7131 /* AppDelegate.swift in Sources */,
+				F42CF9CB2716013900AF7131 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CF9D12716013B00AF7131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42CF9DA2716013B00AF7131 /* BrightSwordsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42CF9DB2716013B00AF7131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42CF9E62716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift in Sources */,
+				F42CF9E42716013B00AF7131 /* BrightSwordsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42CF9D72716013B00AF7131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42CF9C22716013900AF7131 /* BrightSwords */;
+			targetProxy = F42CF9D62716013B00AF7131 /* PBXContainerItemProxy */;
+		};
+		F42CF9E12716013B00AF7131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42CF9C22716013900AF7131 /* BrightSwords */;
+			targetProxy = F42CF9E02716013B00AF7131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F42CF9E72716013B00AF7131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42CF9E82716013B00AF7131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42CF9EA2716013B00AF7131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightSwords/Preview Content\"";
+				DEVELOPMENT_TEAM = TUN64ZVFJ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilpazin.BrightSwords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42CF9EB2716013B00AF7131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BrightSwords/Preview Content\"";
+				DEVELOPMENT_TEAM = TUN64ZVFJ6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilpazin.BrightSwords;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F42CF9ED2716013B00AF7131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUN64ZVFJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilpazin.BrightSwordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightSwords.app/BrightSwords";
+			};
+			name = Debug;
+		};
+		F42CF9EE2716013B00AF7131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUN64ZVFJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilpazin.BrightSwordsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrightSwords.app/BrightSwords";
+			};
+			name = Release;
+		};
+		F42CF9F02716013B00AF7131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUN64ZVFJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilpazin.BrightSwordsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrightSwords;
+			};
+			name = Debug;
+		};
+		F42CF9F12716013B00AF7131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUN64ZVFJ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniilpazin.BrightSwordsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrightSwords;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42CF9BE2716013900AF7131 /* Build configuration list for PBXProject "BrightSwords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42CF9E72716013B00AF7131 /* Debug */,
+				F42CF9E82716013B00AF7131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42CF9E92716013B00AF7131 /* Build configuration list for PBXNativeTarget "BrightSwords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42CF9EA2716013B00AF7131 /* Debug */,
+				F42CF9EB2716013B00AF7131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42CF9EC2716013B00AF7131 /* Build configuration list for PBXNativeTarget "BrightSwordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42CF9ED2716013B00AF7131 /* Debug */,
+				F42CF9EE2716013B00AF7131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42CF9EF2716013B00AF7131 /* Build configuration list for PBXNativeTarget "BrightSwordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42CF9F02716013B00AF7131 /* Debug */,
+				F42CF9F12716013B00AF7131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42CF9BB2716013900AF7131 /* Project object */;
+}
