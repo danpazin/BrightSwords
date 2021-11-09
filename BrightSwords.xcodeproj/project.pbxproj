@@ -15,6 +15,8 @@
 		F42CF9DA2716013B00AF7131 /* BrightSwordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9D92716013B00AF7131 /* BrightSwordsTests.swift */; };
 		F42CF9E42716013B00AF7131 /* BrightSwordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9E32716013B00AF7131 /* BrightSwordsUITests.swift */; };
 		F42CF9E62716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42CF9E52716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift */; };
+		F4540848271B136E00B28A69 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4540847271B136E00B28A69 /* MenuView.swift */; };
+		F4E8BD212734014700089E03 /* CustomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8BD202734014700089E03 /* CustomGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		F42CF9DF2716013B00AF7131 /* BrightSwordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrightSwordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42CF9E32716013B00AF7131 /* BrightSwordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightSwordsUITests.swift; sourceTree = "<group>"; };
 		F42CF9E52716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightSwordsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4540847271B136E00B28A69 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F4E8BD202734014700089E03 /* CustomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 		F42CF9C52716013900AF7131 /* BrightSwords */ = {
 			isa = PBXGroup;
 			children = (
+				F4E8BD1F2734012700089E03 /* Core */,
 				F42CF9C62716013900AF7131 /* AppDelegate.swift */,
+				F4540847271B136E00B28A69 /* MenuView.swift */,
 				F42CF9C82716013900AF7131 /* ContentView.swift */,
 				F42CF9CA2716013900AF7131 /* Experience.rcproject */,
 				F42CF9CC2716013B00AF7131 /* Assets.xcassets */,
@@ -128,6 +134,14 @@
 				F42CF9E52716013B00AF7131 /* BrightSwordsUITestsLaunchTests.swift */,
 			);
 			path = BrightSwordsUITests;
+			sourceTree = "<group>";
+		};
+		F4E8BD1F2734012700089E03 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8BD202734014700089E03 /* CustomGradient.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42CF9C92716013900AF7131 /* ContentView.swift in Sources */,
+				F4E8BD212734014700089E03 /* CustomGradient.swift in Sources */,
+				F4540848271B136E00B28A69 /* MenuView.swift in Sources */,
 				F42CF9C72716013900AF7131 /* AppDelegate.swift in Sources */,
 				F42CF9CB2716013900AF7131 /* Experience.rcproject in Sources */,
 			);
